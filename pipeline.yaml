@@ -35,5 +35,7 @@ spec:
       workspaces:
         - name: task-ws
           workspace: pipeline-ws
+        - name: dockerconfig
+          workspace: docker-credentials
       runAfter:
         - sonar-task
